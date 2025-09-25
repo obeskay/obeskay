@@ -6,7 +6,7 @@ I'm fascinated by the intersection of **clean UX** and **AI tools** - exploring 
 
 ## What I'm working on
 
-💻 **Day job**: Building web apps with TypeScript/Next.js
+💻 **Day job**: Building web apps with TypeScript/Next.js, currently in WOOW Todo Bien, a Insurance Marketplace in Mexico.
 🤖 **Side projects**: Experimenting with AI agents and automation tools  
 🎨 **Design connection**: Bridging AI capabilities with UX-focused development
 
