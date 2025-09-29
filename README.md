@@ -12,7 +12,7 @@ I'm fascinated by the intersection of **clean UX** and **AI tools** - exploring 
 
 ## Projects I've built
 
-Check out the pinned repos below - they show my experiments with AI frameworks like CrewAI, AutoGen, and LangGraph, plus some design-to-code tools like the Figma MCP bridge.
+Check out the pinned repos below - they show my experiments with n8n, gen-UI Agents, plus some design-to-code tools like the Figma MCP bridge.
 
 Recently I've been exploring:
 
