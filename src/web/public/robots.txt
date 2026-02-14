@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://stickycovers.com
+
+# Sitemaps
+Sitemap: https://stickycovers.com/sitemap.xml

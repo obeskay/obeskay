@@ -1,0 +1,169 @@
+import React, { useState, useEffect } from "react";
+import { fetchFAQs } from "../lib/api";
+
+interface Pregunta {
+  nombre: string;
+  respuesta: string;
+  images?: string[];
+  url?: {
+    texto: string;
+    link: string;
+  };
+}
+
+type iCategoria = {
+  nombreCategoria: string;
+  preguntas: Pregunta[];
+}[];
+
+const faqs: iCategoria = [];
+  {
+    nombreCategoria: "Sobre los stickers",
+    preguntas: [
+      {
+        nombre: "¿Cómo puedo personalizar mi tarjeta?",
+        respuesta: `¡Es muy fácil! Colócale un sticker para personalizar tu tarjeta del metro o tu tarjeta de débito, puedes seleccionar entre los diseños que tenemos disponibles, o bien, mandarnos una foto a WhatsApp para hacerla en Sticker.`,
+      },
+      {
+        nombre: "¿Las stickers sirven para cualquier tarjeta?",
+        respuesta:
+          "Sí. Las stickers sirven para cualquier tipo de tarjeta de banco estándar en México.",
+      },
+      {
+        nombre: "¿No afectará el uso de mi tarjeta?",
+        respuesta:
+          "No. Las stickers tienen un diseño preciso que permite que sigas usando tu tarjeta en cajeros, terminales de pago, etc.",
+      },
+      {
+        nombre: "¿De qué material están hechas las stickes?",
+        respuesta:
+          "Buscamos que las stickers sean de la mayor calidad posible. Por esta razón, nuestras stickers están hechas de vinil laminado con un bonito terminado mate.",
+      },
+      {
+        nombre: "¿Las stickers dañarán mi tarjeta?",
+        respuesta:
+          "No. Los materiales de la sticker están diseñados para no dañar ni maltratar tu tarjeta.",
+      },
+      {
+        nombre: "¿Son resistentes al agua?",
+        respuesta:
+          "Sí. Todas las stickers son resistentes a agua y calor, por lo que son bastante duraderas.",
+      },
+    ],
+  },
+  {
+    nombreCategoria: "Sobre los diseños personalizados",
+    preguntas: [
+      {
+        nombre: "¿Cómo funcionan los diseños personalizados?",
+        respuesta: `Solo selecciona el item llamado 'Crea tu diseño' y realiza la compra de manera normal. Una vez terminado el proceso, te contactaremos al número que proporcionaste, o si prefieres, puedes enviarnos tú un mensaje a nuestro Whatsapp ${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER}. Te mostraremos cómo quedaría para que puedas hacer cualquier cambio que gustes antes de imprimirla.`,
+        url: {
+          link: "/como-personalizar",
+          texto: "Sección: cómo personalizar tu tarjeta",
+        },
+      },
+      {
+        nombre: "¿Puede ser cualquier imagen?",
+        respuesta: "Sí, siempre y cuando la imagen sea rectangular.",
+      },
+    ],
+  },
+  {
+    nombreCategoria: "Sobre los envíos",
+    preguntas: [
+      {
+        nombre: "¿Cuánto tiempo tarda en enviarse mi pedido?",
+        respuesta: "No tardamos más de 1-2 días hábiles en enviar tu paquete.",
+      },
+      {
+        nombre: "¿Qué servicios de paquetería usan?",
+        respuesta:
+          "Al momento de hacer el pedido, te permitimos eligir entre una gran variedad de paqueterías como Redpack, 99 Minutos, FedEx, DHL, etc.",
+      },
+      {
+        nombre: "¿En cuánto tiempo llegará mi pedido?",
+        respuesta:
+          "El tiempo de llegada del pedido depende del servicio de paquetería, el cual eliges al momento de realizr tu pedido.",
+      },
+      {
+        nombre: "¿Puedo rastrear mi pedido?",
+        respuesta:
+          "Sí. Te enviaremos una confirmación de tu pedido al correo que nos proporcionaste con el que podrás rastrear tu pedido en la página de la paquetería que seleccionaste.",
+      },
+    ],
+  },
+  {
+    nombreCategoria: "Sobre los pagos",
+    preguntas: [
+      {
+        nombre: "¿Mi pago es seguro?",
+        respuesta:
+          "Sí, utilizamos Mercado Pago como medio de pago, y no almacenamos ninguno de tus datos al momento de realizar la compra.",
+      },
+      {
+        nombre: "¿Qué formas de pago tengo?",
+        respuesta:
+          "Puedes utilizar todas las opciones que Mercado Pago te ofrece, desde pagos con tarjeta, QR o efectivo mediante depósitos en distintas tiendas como 7 Eleven, Oxxo, etc.",
+      },
+    ],
+  },
+  {
+    nombreCategoria: "Otros",
+    preguntas: [
+      {
+        nombre: "¿Venden a mayoreo? Puedo convertirme en distribuidor?",
+        respuesta: `Sí. Para más información, puedes contactarnos en nuestro Whatsapp ${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER}.`,
+      },
+      {
+        nombre: "¿Qué pasa si tuve algún problema con mi envío o pedido?",
+        respuesta:
+          "Por favor, comunícate a nuestro correo stickycoversmx@gmail.com donde te atenderemos con gusto.",
+      },
+    ],
+  },
+];
+
+const faqSchema = {
+  "@context": "http://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.flatMap((faq) =>
+    faq.preguntas.map((pregunta) => ({
+      "@type": "Question",
+      name: pregunta.nombre,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: pregunta.respuesta,
+      },
+    }))
+  ),
+};
+
+const PreguntasFrecuentes = () => {
+  return (
+    <div className="layout">
+      <div className="container flex flex-col items-center max-w-2xl space-y-12">
+        <h3>Preguntas frecuentes</h3>
+        {faqs.map((faq, i) => (
+          <div className="space-y-4" key={i}>
+            <h4>{faq.nombreCategoria}</h4>
+            {faq.preguntas.map((pregunta, j) => (
+              <div className="py-2" key={j}>
+                <h6>{pregunta.nombre}</h6>
+                <p className="text-justify">{pregunta.respuesta}</p>
+              </div>
+            ))}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export const ScriptSchema = () => (
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+  />
+);
+
+export default PreguntasFrecuentes;

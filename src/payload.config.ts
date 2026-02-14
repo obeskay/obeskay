@@ -18,10 +18,13 @@ import Boxes from "./collections/Boxes";
 import Categories from "./collections/Categories";
 import Clients from "./collections/Clients";
 import Coupons from "./collections/Coupons";
+import Testimonials from "./collections/Testimonials";
+import FAQs from "./collections/FAQs";
 
 // Globals
 import MinimumStock from "./globals/MinimumStock";
 import Metro from "./globals/Metro";
+import SiteSettings from "./globals/SiteSettings";
 
 // Import the nodemailer adapter
 // import { nodemailerAdapter } from '@payloadcms/email-nodemailer';
@@ -47,8 +50,10 @@ export default buildConfig({
     Boxes,
     Categories,
     Clients,
+    Testimonials,
+    FAQs,
   ],
-  globals: [MinimumStock, Metro],
+  globals: [MinimumStock, Metro, SiteSettings],
   // Use the nodemailer adapter
   // email: nodemailerAdapter({
   //   defaultFromAddress: process.env.EMAIL_CONTACTO,
