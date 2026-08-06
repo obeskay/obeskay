@@ -4,104 +4,88 @@
 [![Contacto](https://img.shields.io/badge/Contacto-obeskay.com%2Fcontact-red?style=flat-square)](https://obeskay.com/contact)
 [![Location](https://img.shields.io/badge/Location-Mexico%20City-green?style=flat-square)](https://maps.google.com/?q=Mexico+City)
 
----
+Desarrollador Full-Stack especializado en **Next.js, TypeScript y AI Agents**, desde
+Ciudad de México. Construyo productos que combinan diseño con inteligencia artificial —
+y herramientas que hacen visible lo que los agentes hacen por dentro.
 
-## 👋 Hola!
+## Proyectos
 
-Desarrollador Full-Stack especializado en **Next.js, TypeScript y AI Agents**. Construyo productos digitales que combinan diseño moderno con inteligencia artificial.
+### [Lottie Animator](https://github.com/obeskay/lottie-animator-skill) ⭐ 16
 
----
+Genera animaciones Lottie profesionales desde SVGs. Convierte vectores en shape layers,
+detecta los defectos que hacen que una animación renderice en blanco, y te deja verla
+antes de exportar. Skill de Claude Code, en Python.
 
-## 🚀 Proyectos Destacados
-
-### [SlideForge](https://github.com/obeskay/slideforge) - Figma Plugin
-**JSON to Figma Slides con SmartAnimate**
-
-Convierte especificaciones JSON en presentaciones Figma completas con transiciones automáticas.
-<br/>
-![TypeScript](https://img.shields.io/badge/-TypeScript-blue?style=flat&logo=typescript&logoColor=white)
-![Figma API](https://img.shields.io/badge/-Figma%20API-purple?style=flat&logo=figma&logoColor=white)
-
----
-
-### [Lottie Animator Skill](https://github.com/obeskay/lottie-animator-skill)
-**Genera animaciones Lottie profesionales desde SVGs**
-
-Reemplaza After Effects con inteligencia artificial. Crea motion graphics en segundos, no horas.
-<br/>
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/-Claude%20Code-orange?style=flat&logo=claude&logoColor=white)
-![Lottie](https://img.shields.io/badge/-Lottie-blue?style=flat&logo=airbnb&logoColor=white)
-
----
+![Lottie](https://img.shields.io/badge/-Lottie-00DDB3?style=flat)
 
 ### [SwarmVille](https://github.com/obeskay/swarm-ville)
-**Visualiza colaboración de Agentes AI en tiempo real**
 
-Un entorno 2D donde puedes ver agentes AI especializados trabajando juntos en proyectos de código.
-<br/>
+Una aldea 3D donde plantas ideas de software y ves al enjambre convertirlas en releases.
+Corre un loop agéntico real —plan, build, review, verify, archive— y lo renderiza como
+lugar: cinco agentes, cinco parcelas. Un agente caminando con el anillo encendido es una
+llamada al modelo en curso.
+
+![Three.js](https://img.shields.io/badge/-Three.js-000000?style=flat&logo=three.js&logoColor=white)
 ![React](https://img.shields.io/badge/-React-61dafb?style=flat&logo=react&logoColor=black)
-![WebSocket](https://img.shields.io/badge/-WebSocket-green?style=flat&logo=socket.io&logoColor=white)
-![PixiJS](https://img.shields.io/badge/-PixiJS-pink?style=flat&logo=pixijs&logoColor=white)
+![Claude](https://img.shields.io/badge/-Anthropic%20SDK-D97757?style=flat&logo=anthropic&logoColor=white)
 
----
+### [One-Shot](https://github.com/obeskay/one-shot)
 
-### [obeskay-portfolio-new](https://github.com/obeskay/obeskay-portfolio-new)
-**Portfolio personal - Next.js 16 + React 19 + Tailwind 4**
+Constructor de contexto para LLMs, de escritorio. Escanea tu repo, te deja marcar los
+archivos que importan y arma un solo mensaje con estructura, grafo de dependencias y
+código, listo para pegar. Sin API keys, sin mandar nada a ningún servidor.
 
-Diseño dark moderno, mobile-first, desplegado con Coolify.
-<br/>
-![Next.js](https://img.shields.io/badge/-Next.js-black?style=flat&logo=next.js&logoColor=white)
-![Tailwind](https://img.shields.io/badge/-Tailwind-06b6d4?style=flat&logo=tailwindcss&logoColor=white)
+![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat&logo=go&logoColor=white)
+![Wails](https://img.shields.io/badge/-Wails-DF0000?style=flat)
+![React](https://img.shields.io/badge/-React-61dafb?style=flat&logo=react&logoColor=black)
 
----
+### [SlideForge](https://github.com/obeskay/slideforge)
 
-## 🛠️ Stack Tecnológico
+Plugin de Figma: convierte especificaciones JSON en presentaciones completas de Figma
+Slides, con SmartAnimate y motion graphics.
+
+![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
+![Figma](https://img.shields.io/badge/-Figma%20API-F24E1E?style=flat&logo=figma&logoColor=white)
+
+### [VÉRTICE](https://github.com/obeskay/vertice)
+
+Arcade de precisión para el browser: los lados del nivel son tus carriles de movimiento.
+Sin build step, three.js vendored.
+
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Three.js](https://img.shields.io/badge/-Three.js-000000?style=flat&logo=three.js&logoColor=white)
+
+### [ResumYT](https://github.com/obeskay/resumyt-ai)
+
+Resume videos de YouTube con IA: transcribe, procesa y extrae lo que importa. Multi-proveedor
+(OpenAI, OpenRouter, DeepSeek) con fallback entre ellos.
+
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
+![Supabase](https://img.shields.io/badge/-Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white)
+
+## Stack
 
 | Categoría | Tecnologías |
-|-----------|-------------|
-| **Frontend** | React 19, Next.js 16, TypeScript, Tailwind CSS 4 |
-| **AI/ML** | Claude Code, Cursor, n8n Workflows, Agent Coordination |
-| **Backend** | Node.js, Express, API Design |
-| **DevOps** | Docker, Coolify, GitHub Actions |
-| **Design** | Figma Plugins, Lottie Animations, Motion Graphics |
+|---|---|
+| **Frontend** | React, Next.js, TypeScript, Tailwind CSS |
+| **AI/Agents** | Anthropic SDK, Vercel AI SDK, LangChain, coordinación multi-agente |
+| **Backend** | Node.js, Go, Supabase, API design |
+| **DevOps** | Docker, Coolify, Hetzner, GitHub Actions |
+| **Design** | Plugins de Figma, animaciones Lottie, motion graphics |
 
----
+## Filosofía
 
-## 📈 GitHub Stats
+> El futuro del desarrollo no es la IA reemplazando humanos, es **humanos coordinando
+> equipos de IA** para construir mejor y más rápido.
 
-<div align="center">
+Mis proyectos exploran cómo hacer visible lo invisible: dar forma, movimiento y
+coordinación a los agentes que trabajan con nosotros.
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=obeskay&layout=compact&theme=dark&hide_border=true)](https://github.com/obeskay)
+## Contacto
 
-</div>
-
----
-
-## 💡 Filosofía
-
-> "El futuro del desarrollo no es AI reemplazando humanos, es **humanos coordinando equipos de AI** para construir mejor y más rápido."
-
-Mis proyectos exploran cómo hacer visible lo invisible: dar forma, movimiento y coordinación a los agentes AI que trabajan con nosotros.
-
----
-
-## 📫 Contacto
-
-- **Contacto**: [obeskay.com/contact](https://obeskay.com/contact)
-- **Web**: [obeskay.com](https://obeskay.com)
-- **LinkedIn**: [linkedin.com/in/obeskay](https://linkedin.com/in/obeskay)
-- **Ubicación**: Ciudad de México, México
-
----
-
-<div align="center">
-
-### ¿Trabajemos juntos?
-
-[📧 Escríbeme](https://obeskay.com/contact) • [🌐 Visita mi portfolio](https://obeskay.com) • [💬 LinkedIn](https://linkedin.com/in/obeskay)
-
-</div>
-
----
-
-*Última actualización: Marzo 2026*
+- **Web** — [obeskay.com](https://obeskay.com)
+- **Escríbeme** — [obeskay.com/contact](https://obeskay.com/contact)
+- **LinkedIn** — [linkedin.com/in/obeskay](https://linkedin.com/in/obeskay)
