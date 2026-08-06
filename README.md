@@ -87,7 +87,7 @@ Mis proyectos exploran cómo hacer visible lo invisible: dar forma, movimiento y
 
 ## 📫 Contacto
 
-- **Email**: hola@obeskay.com | obeskay.mail@gmail.com
+- **Email**: hola@obeskay.com
 - **Web**: [obeskay.com](https://obeskay.com)
 - **LinkedIn**: [linkedin.com/in/obeskay](https://linkedin.com/in/obeskay)
 - **Ubicación**: Ciudad de México, México
