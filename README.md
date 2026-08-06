@@ -1,7 +1,7 @@
 # Obed Vargas | Full-Stack Developer
 
 [![Website](https://img.shields.io/badge/Website-obeskay.com-blue?style=flat-square)](https://obeskay.com)
-[![Email](https://img.shields.io/badge/Email-hola%40obeskay.com-red?style=flat-square)](mailto:hola@obeskay.com)
+[![Contacto](https://img.shields.io/badge/Contacto-obeskay.com%2Fcontact-red?style=flat-square)](https://obeskay.com/contact)
 [![Location](https://img.shields.io/badge/Location-Mexico%20City-green?style=flat-square)](https://maps.google.com/?q=Mexico+City)
 
 ---
@@ -87,7 +87,7 @@ Mis proyectos exploran cómo hacer visible lo invisible: dar forma, movimiento y
 
 ## 📫 Contacto
 
-- **Email**: hola@obeskay.com
+- **Contacto**: [obeskay.com/contact](https://obeskay.com/contact)
 - **Web**: [obeskay.com](https://obeskay.com)
 - **LinkedIn**: [linkedin.com/in/obeskay](https://linkedin.com/in/obeskay)
 - **Ubicación**: Ciudad de México, México
@@ -98,7 +98,7 @@ Mis proyectos exploran cómo hacer visible lo invisible: dar forma, movimiento y
 
 ### ¿Trabajemos juntos?
 
-[📧 Envíame un email](mailto:hola@obeskay.com) • [🌐 Visita mi portfolio](https://obeskay.com) • [💬 LinkedIn](https://linkedin.com/in/obeskay)
+[📧 Escríbeme](https://obeskay.com/contact) • [🌐 Visita mi portfolio](https://obeskay.com) • [💬 LinkedIn](https://linkedin.com/in/obeskay)
 
 </div>
 
