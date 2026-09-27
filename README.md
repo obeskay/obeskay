@@ -10,7 +10,7 @@ y herramientas que hacen visible lo que los agentes hacen por dentro.
 
 ## Proyectos
 
-### [Lottie Animator](https://github.com/obeskay/lottie-animator-skill) ⭐ 16
+### [Lottie Animator](https://github.com/obeskay/lottie-animator-skill) ![Stars](https://img.shields.io/github/stars/obeskay/lottie-animator-skill?style=flat)
 
 Genera animaciones Lottie profesionales desde SVGs. Convierte vectores en shape layers,
 detecta los defectos que hacen que una animación renderice en blanco, y te deja verla
